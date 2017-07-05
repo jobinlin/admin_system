@@ -1,1 +1,0 @@
-ALTER TABLE `o2onew`.`fanwe_admin` ADD COLUMN `password` varchar(255) NOT NULL COMMENT 'laravel必须用此字段' AFTER `adm_name`, ADD COLUMN `remember_token` varchar(255) COMMENT '这是用来保存「记住我」令牌的' AFTER `password`;
